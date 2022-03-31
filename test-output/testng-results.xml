@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Test1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[Enter email]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[submit button]]>
+    </line>
+    <line>
+      <![CDATA[Test 1 is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95040" started-at="2022-03-29T22:37:57 IST" finished-at="2022-03-29T22:39:32 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95040" started-at="2022-03-29T22:37:57 IST" finished-at="2022-03-29T22:39:32 IST">
+      <class name="testclasses.Test1">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testclasses.Test1@5a4041cc]" name="beforeClass" is-config="true" duration-ms="33099" started-at="2022-03-29T22:37:57 IST" finished-at="2022-03-29T22:38:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.Test1@5a4041cc]" name="beforeMethod" is-config="true" duration-ms="377" started-at="2022-03-29T22:38:30 IST" finished-at="2022-03-29T22:38:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testclasses.Test1@5a4041cc]" name="test" duration-ms="42" started-at="2022-03-29T22:38:31 IST" finished-at="2022-03-29T22:38:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testclasses.Test1@5a4041cc]" name="afterMethod" is-config="true" duration-ms="7" started-at="2022-03-29T22:38:31 IST" finished-at="2022-03-29T22:38:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=Test1.test()[pri:0, instance:testclasses.Test1@5a4041cc] output=Test1 is passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.Test1@5a4041cc]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-03-29T22:38:31 IST" finished-at="2022-03-29T22:38:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserLogin()[pri:0, instance:testclasses.Test1@5a4041cc]" name="verifyUserLogin" duration-ms="32468" started-at="2022-03-29T22:38:31 IST" finished-at="2022-03-29T22:39:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[submit button]]>
+            </line>
+            <line>
+              <![CDATA[Test 1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testclasses.Test1@5a4041cc]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-03-29T22:39:03 IST" finished-at="2022-03-29T22:39:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLogin status=SUCCESS method=Test1.verifyUserLogin()[pri:0, instance:testclasses.Test1@5a4041cc] output=Enter email]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.Test1@5a4041cc]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-29T22:39:03 IST" finished-at="2022-03-29T22:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserCanAddNewAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testclasses.Test1@5a4041cc]" name="verifyUserCanAddNewAddress" duration-ms="19517" started-at="2022-03-29T22:39:03 IST" data-provider="Dataset" finished-at="2022-03-29T22:39:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aaditya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8208240528]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[424201]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pachora]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddNewAddress -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testclasses.Test1@5a4041cc]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-03-29T22:39:23 IST" finished-at="2022-03-29T22:39:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAddNewAddress status=SUCCESS method=Test1.verifyUserCanAddNewAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testclasses.Test1@5a4041cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.Test1@5a4041cc]" name="beforeMethod" is-config="true" duration-ms="43" started-at="2022-03-29T22:39:23 IST" finished-at="2022-03-29T22:39:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyUserCanAddNewAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testclasses.Test1@5a4041cc]" name="verifyUserCanAddNewAddress" duration-ms="5259" started-at="2022-03-29T22:39:23 IST" data-provider="Dataset" finished-at="2022-03-29T22:39:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8888834561]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[425001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5] but found [4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5] but found [4]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at testclasses.Test1.verifyUserCanAddNewAddress(Test1.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddNewAddress -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testclasses.Test1@5a4041cc]" name="afterMethod" is-config="true" duration-ms="967" started-at="2022-03-29T22:39:28 IST" finished-at="2022-03-29T22:39:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAddNewAddress status=FAILURE method=Test1.verifyUserCanAddNewAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testclasses.Test1@5a4041cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testclasses.Test1@5a4041cc]" name="afterClass" is-config="true" duration-ms="2845" started-at="2022-03-29T22:39:29 IST" finished-at="2022-03-29T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testclasses.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
