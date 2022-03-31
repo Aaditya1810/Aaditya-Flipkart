@@ -39,6 +39,21 @@ public class BaseClass1 {
     		
     		return driver;	
     	}
-		
+    	
+
+    	/*else 
+    	{
+    		WebDriverManager.firefoxdriver().setup();
+    		
+    		//System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\Browsers\\geckodriver.exe");
+
+    		WebDriver driver= new FirefoxDriver();
+
+    		driver.get("https://flipkart.com/");  //open the website
+
+    		driver.manage().window().maximize();      //maximize the site
+    		
+    		return driver;	
+    	}*/
 	}
 }
